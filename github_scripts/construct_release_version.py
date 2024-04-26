@@ -8,7 +8,7 @@ It assumes there is an environmental variable set called TAGS that contains the 
 """
 import os
 
-from github_scripts.utils import (
+from utils import (
     get_date_strings,
     get_number_of_versions_this_month, 
     get_version_list_from_tags,
